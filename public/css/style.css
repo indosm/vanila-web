@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.tc {
+	text-align:center;
+}
+
+#nav {
+	font-size:25px;
+}
+#board_content {
+	margin-top: 10px;
+}
+.list-table {
+	margin-top: 40px;
+}
+.list-table thead th{
+	height:40px;
+	border-top:2px solid #09C;
+	border-bottom:1px solid #CCC;
+	font-weight: bold;
+	font-size: 17px;
+}
+.list-table tbody td{
+	text-align:center;
+	padding:10px 0;
+	border-bottom:1px solid #CCC; heigth:20px;
+	font-size: 14px
+}
+#write_btn {
+	position: absolute;
+	margin-top:20px;
+	right: 0;
+}
