@@ -30,7 +30,7 @@ services:
       networks:
         - frontend
       ports:
-        - "8080:80"
+              - "80:80" #<external IP>:<Container IP>
 
     php-fpm:
       build: phpdocker/php-fpm

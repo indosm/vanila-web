@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-entry
-        image: indosm/entry:latest
+        image: indosm/entry:latest  #indosm/entry : www.aaa.com redirect image in docker hub
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         imagePullPolicy: Always
