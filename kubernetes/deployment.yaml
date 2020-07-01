@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-entry
+  labels:
+    app: my-entry
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-entry
+  template:
+    metadata:
+      labels:
+        app: my-entry
+    spec:
+      containers:
+      - name: my-entry
+        image: indosm/entry:latest
+        ports:
+        - containerPort: 8080
+        imagePullPolicy: Always
